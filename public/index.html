@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../app/css/style.css" />
+    <title>Bienvenue</title>
+    <style>
+      * {
+        margin: 0;
+        font-family: "Times New Roman", Times, serif;
+      }
+      body {
+        height: 100vh;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.1rem 1rem;
+      }
+
+      .user {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: none;
+      }
+
+      .login {
+        padding: 0.1rem 0.5rem;
+        border: none;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        align-content: center;
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .login a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .signup {
+        padding: 0.1rem 0.5rem;
+        border: none;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        align-content: center;
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .signup a {
+        text-decoration: none;
+        color: black;
+      }
+
+      main {
+        height: 80vh;
+        align-content: center;
+        text-align: center;
+      }
+
+      p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 32px;
+        color: gainsboro;
+      }
+
+      footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        gap: 0.5rem;
+      }
+
+      .f-items {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+          font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        border: none;
+        border-radius: 5px;
+        color: rgb(59, 58, 58);
+      }
+
+      @media (min-width: 375px) {
+        main{
+            margin-bottom: 9vh;
+        }
+        .f-items {
+          font-size: 15px;
+          padding: .1rem 1rem;
+        }
+        p{
+            font-size: 42px;
+        }
+      }
+      @media (max-width:375px) {
+        header{
+            padding: 1rem .5rem;
+        }
+        
+        .f-items{
+            padding: 0;
+            font-size: 10px;
+            margin-top: 5vh;
+        }
+        p{
+            font-size: 40px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <button type="button" class="user"><a href="#"></a></button>
+      <button type="button" class="user"><a href="#"></a></button>
+      </div>
+      <div>
+        <button type="button" class="login">
+          <a href="/">login</a>
+        </button>
+        <button type="button" class="signup">
+          <a href="/signup">signup</a>
+        </button>
+      </div>
+    </header>
+         
+    <main>
+      <p>BIENVENUE DANS VOTRE APPLICATION</p>
+    </main>
+
+    <footer>
+      <button type="button" class="f-items">Bienvenue</button>
+      <button type="button" class="f-items">music_app</button>
+      <button type="button" class="f-items">planing_cours</button>
+      <button type="button" class="f-items">students_app</button>
+      <button type="button" class="f-items">mbroumsadja</button>
+    </footer>
+  </body>
+</html>
